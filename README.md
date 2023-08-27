@@ -35,5 +35,5 @@ npm run start
 выполните следующие команды:
 
 ```sh
-python3 manage.py runserver 127.0.0.1:8000
+python manage.py runserver 127.0.0.1:8000
 ```
