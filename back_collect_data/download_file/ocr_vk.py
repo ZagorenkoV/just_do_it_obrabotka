@@ -105,4 +105,4 @@ def walk_folder(image_folder):
         df = pd.concat([df, df2], ignore_index=True)
         # print(df)
         # print(df[df['Количество подписчиков'].eq("Ошибка")].count())
-    return df.to_excel("vk_data.xlsx")
+    return df.to_excel("../back_collect_data/vk_data.xlsx")
