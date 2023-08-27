@@ -1,0 +1,20 @@
+*::-webkit-scrollbar-track {
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: white;
+}
+
+*::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+
+*::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #8191a799;
+    cursor: pointer;
+}
+
+* {
+    scrollbar-color: #8191a799 white;
+}
